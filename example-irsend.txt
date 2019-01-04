@@ -1,0 +1,6 @@
+# List all of the commands that LIRC knows for 'Roku'
+irsend LIST Roku ""
+# Send the KEY_POWER command once
+irsend SEND_ONCE Roku KEY_POWER
+# Send the KEY_VOLUMEDOWN command once
+irsend SEND_ONCE Roku KEY_VOLUMEDOWN
